@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: DeathCounter
+## Notes: Counts raid deaths.
+## SavedVariables: DeathData
+DeathCounter.lua
