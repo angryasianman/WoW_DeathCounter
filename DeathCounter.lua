@@ -8,7 +8,7 @@ frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 frame:SetScript("OnEvent", function()
     if event == "PLAYER_ENTERING_WORLD" then
         if not DeathData then DeathData = {} end
-        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00DeathCounter Loaded.|r Use /deaths to see the shame list.")
+        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00DeathCounter Loaded.|r Use /deaths to see the shame of Yip's Harem.")
     
     elseif event == "CHAT_MSG_COMBAT_FRIENDLY_DEATH" then
         -- arg1 is the death message, e.g., "Player dies."
